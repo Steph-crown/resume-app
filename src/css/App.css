@@ -1,0 +1,113 @@
+:root {
+    --soft-black: #303030;
+    --yellow: #fca311;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--soft-black);
+}
+
+.App {
+    background-color: #2815d3;
+    width: 100vw;
+    /* position: absolute; */
+    /* //padding: 20px 0; */
+}
+
+.highlight {
+    background-color: rgba(252,163,17,0.3);
+    border: 1px solid var(--yellow);
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 30px;
+    min-width: 0;
+    /* margin: auto; */
+    color: var(--yellow);
+    font-size: 0.7rem;
+}
+
+
+
+
+/* MEDIA QUERIES */
+    
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    nav, .containn {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    #lg-flex {
+        display: none;
+    }
+     .circle, .triangle {
+        left: 3vw;
+    } 
+}
+
+
+/* Smartphones (landscape) ----------- */
+ @media only screen and (min-width : 321px) { 
+    nav, .containn {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #lg-flex {
+        display: none;
+    }
+    .circle, .triangle {
+        left: 5vw;
+    }
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    nav, .containn {
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+    .circle, .triangle {
+        left: 7vw;
+    }
+}
+
+@media (min-width: 991px) {
+    #lg-none {
+        display: none !important;
+    }
+    #lg-flex {
+        display: flex;
+    }
+    nav {
+        background-color: yellow;
+    }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    navv, .containn {
+        padding-left: 9vw;
+        padding-right: 9vw;
+    }
+    .circle, .triangle {
+        left: 9vw;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    navv, .containn {
+        padding-left: 11vw;
+        padding-right: 11vw;
+    }
+    .circle, .triangle {
+        left: 11vw;
+    }
+}

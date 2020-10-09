@@ -1,0 +1,46 @@
+{
+    "logo":"https://scessila.sirv.com/resume-builder/steph-resume-logo.png",
+    "templates": [
+        "https://scessila.sirv.com/resume-builder/template-2.png",
+        "https://scessila.sirv.com/resume-builder/template-1.png",
+        "https://scessila.sirv.com/resume-builder/template-3.png",
+        "https://scessila.sirv.com/resume-builder/template-4.png",
+        "https://scessila.sirv.com/resume-builder/template-5.png"
+    ],
+    "fonts": [
+        "@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');",
+        "@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');",
+        "@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;900&display=swap');",
+        "@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');",
+        "@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Righteous&display=swap');"
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
