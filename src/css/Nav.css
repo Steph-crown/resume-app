@@ -91,13 +91,23 @@ h2 span {
     align-items: center;
 }
 
-.signup {
-    color: var(--blue);
+
+
+
+nav .signup {
+    color: var(--blue) !important;
 }
 
-.login {
-    background-color: var(--yellow);
-    color: var(--blue);
+nav .link {
+    color:#303030;
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    text-decoration: none;
+}
+
+nav .login {
+    background-color: var(--blue);
+    color: #efefef;
     /* padding: 5px 20px; */
     border-radius: 5px;
     display: flex;
@@ -107,9 +117,9 @@ h2 span {
     justify-content: center;
 }
 
-/* .menu-lg-content {
-    display: flex;
-} */
+nav .link:hover {
+    color: var(--blue);
+}
 
 @keyframes content {
     from {width: 0;}

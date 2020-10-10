@@ -1,0 +1,13 @@
+section.icon {
+  background-color: transparent;
+  position: absolute;
+  z-index: 93;
+  width: 100vw;
+}
+
+.semi-circle {
+  position: relative;
+  left: 60vw;
+  transform: rotate(120deg);
+  top: -5vw;
+}

@@ -1,5 +1,11 @@
-<section className='icons'>
-                <svg className='semi-circle' width="200" height="180" viewBox="0 0 445 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+import React, { Component } from 'react'
+import './../css/Svgs.css'
+
+export default class Svgs extends Component {
+    render() {
+        return (
+            <section className='icon'>
+                <svg className='semi-circle' width="180" height="120" viewBox="0 0 445 400" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M412 200C430.225 200 445.302 185.104 441.985 167.183C434.422 126.31 412.852 88.26 379.831 58.5786C338.104 21.0714 281.511 4.00466e-06 222.5 0C163.489 -4.00466e-06 106.896 21.0714 65.1688 58.5786C32.1482 88.26 10.5783 126.31 3.01477 167.183C-0.301551 185.104 14.7746 200 33 200L222.5 200H412Z" fill="#FACF4C"/>
                 </svg>
                 <svg className='triangle' width="90" height="90" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,3 +18,9 @@
                     <rect width="455" height="350" rx="30" fill="#319753"/>
                 </svg>
             </section> 
+        )
+    }
+}
+
+
+

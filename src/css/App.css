@@ -11,7 +11,7 @@
 }
 
 .App {
-    background-color: #2815d3;
+    background-color: #ffffff;
     width: 100vw;
     /* position: absolute; */
     /* //padding: 20px 0; */
@@ -84,9 +84,7 @@
     #lg-flex {
         display: flex;
     }
-    nav {
-        background-color: yellow;
-    }
+    
 }
 
 
