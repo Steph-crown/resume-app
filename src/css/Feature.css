@@ -1,0 +1,36 @@
+.feature {
+  background-color:#ffffff;
+  border-radius:5px;
+  width:100%;
+  max-width:350px;
+  text-align: center;
+  display: block;
+  margin:40px auto;
+  padding: 25px;
+}
+.feature p {
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-family: "PT Sans";
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.feature-icon {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  left:0; right:0;
+  margin: -80px auto;
+  background-color:#d2e2ff;
+  margin-bottom: 25px;
+}
+.feature-icon img{
+  width:80px;
+  height: 80px;
+}

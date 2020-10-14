@@ -28,9 +28,28 @@
     color: var(--yellow);
     font-size: 0.7rem;
 }
-
-
-
+.highlight {
+  font-family: 'PT Sans';
+  font-weight: 400;
+}
+.title {
+  color:#ffffff;
+  font-family: "PT Sans";
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 30px 0;
+}
+p {
+  line-height:30px !important;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+}
+.high {
+  display:flex;
+  width:100%;
+  justify-content: center;
+}
 
 /* MEDIA QUERIES */
     

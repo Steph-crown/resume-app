@@ -5,7 +5,7 @@
 }
 
 .banner {
-    background-color:var(--white);
+    background-color:transparent;
     min-height: calc(100vh - 90px);
     width: 100%;
     display: flex;
@@ -13,10 +13,9 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    margin-bottom: 0 !important;
 }
- /* .highlight {
-    margin-top: 190px;
- } */
+
 h1 {
     text-align: center;
     color:#333333;
@@ -29,7 +28,7 @@ h1 {
 }
 
 .banner p {
-    font-size: 1.4rem;
+    font-size: 23px;
     color: #333333;
     text-align: center;
 }
@@ -79,4 +78,9 @@ p {
         margin-left :calc(18vw - 10px);
         margin-right: calc(18vw - 10px);
     }
+}
+@media (min-width:600px) and (max-aspect-ratio: 4/3) {
+  .banner {
+    min-height: 100px !important;
+  }
 }

@@ -1,13 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 section.icon {
   background-color: transparent;
   position: absolute;
   z-index: 93;
   width: 100vw;
+  
+}
+section.icon svg {
+  animation-iteration-count: infinite;
+  animation-name: rotate;
+  animation-duration: 5s;
 }
 
 .semi-circle {
-  position: relative;
-  left: 60vw;
+  position: absolute;
+  right:10px;
   transform: rotate(120deg);
-  top: -5vw;
+  top: 600px;
+}
+.triangle {
+  position:absolute;
+  left:1px;
+  top:100px;
+}
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }

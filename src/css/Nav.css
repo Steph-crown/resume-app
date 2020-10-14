@@ -61,6 +61,7 @@ h2 span {
     width: 250px;
     z-index: 10000000000000000000000 !important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: scroll;
 }
 .menu-content, .middle, .end {
     flex-direction: column;

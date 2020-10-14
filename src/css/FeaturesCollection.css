@@ -1,0 +1,20 @@
+:root {                                         --blue: rgb(41,98,255);
+    --yellow: #fca311;
+    --white: #ffffff;                       }
+* {
+  box-sizing:border-box;
+}
+.features {
+  background: var(--blue);
+  width:100vw;
+  margin-top:20px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:100%;
+}
